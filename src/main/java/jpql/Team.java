@@ -10,7 +10,7 @@ public class Team {
     @Id @GeneratedValue
     private Long id;
 
-    private String username;
+    private String name;
 
     private int age;
 
@@ -25,12 +25,12 @@ public class Team {
         this.id = id;
     }
 
-    public String getUsername() {
-        return username;
+    public String getName() {
+        return name;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setName(String username) {
+        this.name = username;
     }
 
     public int getAge() {
